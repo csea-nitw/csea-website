@@ -59,7 +59,7 @@ const PageTabs=(props)=>
   };
     return (  
     <>
-    
+    {/* <Box > */}
       <AppBar elevation={0} color="transparent"  className={classes.root} position="static">
         <Tabs  centered value= {selectedTab} onChange={handleChange} >
           
@@ -76,7 +76,7 @@ const PageTabs=(props)=>
        {selectedTab ===2 && <Alumni/>}
        {selectedTab===3 && <Team/>}
        {selectedTab==undefined && <h1>xfgdfgdfhgfhgfjghjkhjkjkljkjkljhjghkgh</h1>}
-
+       {/* </Box> */}
     </>
     
    
